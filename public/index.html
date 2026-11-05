@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>META AI V2 Dashboard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #080b14;
+      color: white;
+      padding: 20px;
+    }
+
+    header {
+      padding: 22px;
+      background: #111827;
+      border: 1px solid #263449;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #00e5ff;
+      font-size: 26px;
+    }
+
+    header p {
+      color: #9ca3af;
+      margin-top: 8px;
+    }
+
+    .status {
+      margin-top: 20px;
+      padding: 18px;
+      background: #111827;
+      border-radius: 12px;
+      border: 1px solid #263449;
+    }
+
+    .online {
+      color: #22c55e;
+      font-weight: bold;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #111827;
+      padding: 22px;
+      border-radius: 12px;
+      border: 1px solid #263449;
+    }
+
+    .card h3 {
+      color: #9ca3af;
+      font-size: 13px;
+    }
+
+    .card h2 {
+      color: #00e5ff;
+      margin-top: 12px;
+    }
+
+    .section {
+      margin-top: 25px;
+      padding: 20px;
+      background: #111827;
+      border-radius: 12px;
+      border: 1px solid #263449;
+    }
+
+    button {
+      background: #00bcd4;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      color: #001018;
+      font-weight: bold;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #64748b;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>◈ META AI V2 ◈</h1>
+  <p>WhatsApp Multi-Device Bot Dashboard</p>
+</header>
+
+<div class="status">
+  BOT STATUS: <span class="online">● DASHBOARD ONLINE</span>
+  <p style="margin-top:10px;color:#9ca3af">
+    Developer: SIMON TECH INC
+  </p>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h3>TOTAL COMMANDS</h3>
+    <h2>150</h2>
+  </div>
+
+  <div class="card">
+    <h3>BOT VERSION</h3>
+    <h2>2.0.0</h2>
+  </div>
+
+  <div class="card">
+    <h3>PLATFORM</h3>
+    <h2>Node.js</h2>
+  </div>
+
+  <div class="card">
+    <h3>MODE</h3>
+    <h2>PUBLIC</h2>
+  </div>
+</div>
+
+<div class="section">
+  <h3>BOT INFORMATION</h3>
+  <p style="margin-top:12px">Name: META AI V2</p>
+  <p style="margin-top:8px">Prefix: .</p>
+  <p style="margin-top:8px">Developer: SIMON TECH INC</p>
+  <p style="margin-top:8px">WhatsApp: Baileys</p>
+</div>
+
+<div class="section">
+  <h3>SESSION MANAGEMENT</h3>
+  <p style="margin-top:10px;color:#9ca3af">
+    Multi-device session connection will appear here.
+  </p>
+  <button onclick="alert('Session API is not connected yet.')">
+    CONNECT DEVICE
+  </button>
+</div>
+
+<footer>
+  © 2026 SIMON TECH INC<br>
+  META AI V2 • POWERED BY NODE.JS
+</footer>
+
+</body>
+</html>
