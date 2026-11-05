@@ -1,0 +1,27 @@
+{
+  "name": "meta-ai-v2",
+  "version": "2.0.0",
+  "description": "META AI V2 - WhatsApp Multi-Device Bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "meta-ai",
+    "whatsapp-bot",
+    "baileys",
+    "multi-device"
+  ],
+  "author": "Simon Tech Inc",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "axios": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "pino": "latest",
+    "qrcode": "latest"
+  }
+}
