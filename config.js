@@ -1,3 +1,4 @@
+
 require('dotenv').config();
 
 module.exports = {
@@ -16,13 +17,13 @@ module.exports = {
     // MENU
     MENU_PIC: process.env.MENU_PIC || 'https://files.catbox.moe/msvhxd.png',
 
-    // MULTI-USER SESSIONS
-    SESSION_DIR: process.env.SESSION_DIR || 'sessions',
+    // MULTI-DEVICE
     MULTI_DEVICE: true,
     PAIRING_ENABLED: true,
     AUTO_RECONNECT: true,
 
     // SESSION MANAGEMENT
+    SESSION_DIR: process.env.SESSION_DIR || 'sessions',
     MAX_SESSIONS: Number(process.env.MAX_SESSIONS) || 100,
     SESSION_RECONNECT_DELAY: 5000,
 
